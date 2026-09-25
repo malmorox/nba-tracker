@@ -6,4 +6,7 @@ export interface Team {
     city: string;
     state: string;
     year_founded: number;
+    arena: string | null;
+    head_coach: string | null;
+    general_manager: string | null;
 }
